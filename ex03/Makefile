@@ -4,7 +4,7 @@ CXX		= c++
 CXXFLAGS	= -Wall -Wextra -Werror -std=c++98
 IFLAGS	= -I includes
 
-SRCS	= 	main.cpp HumanA.cpp HumanA.hpp HumanB.cpp HumanB.hpp Weapon.hpp Weapon.cpp
+SRCS	= 	main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
 OBJS	= $(SRCS:.cpp=.o)
 
 all: $(NAME)
